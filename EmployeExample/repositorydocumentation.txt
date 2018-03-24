@@ -1,0 +1,13 @@
+The Repository Pattern is one of the most popular patterns to create an enterprise level application.
+ It restricts us to work directly with the data in the application and creates new layers for database operations,
+ business logic, and the application’s UI. If an application does not follow the Repository Pattern,
+ it may have the following problems:
+
+Using the Repository Pattern has many advantages:
+
+Your business logic can be unit tested without data access logic
+The database access code can be reused
+Your database access code is centrally managed so easy to implement any database access policies, like caching
+It’s easy to implement domain logic.
+so this simple application developed with this design pattern. the aim of the application is to 
+add,delte and edit data from database using repository design pattern.
